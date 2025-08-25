@@ -40,13 +40,13 @@
 # !git clone https://github.com/Qedma/ieee2025-qesem-workshop.git
 
 # %%
-# !cd /content/ieee2025-qesem-workshop
-
-# %%
 # !pip install "qiskit>=2.0.0" "qiskit-ibm-runtime>=0.40.0" "qiskit-aer>=0.17.1" "networkx>=3.5" "matplotlib>=3.10.3" "tqdm>=4.67.1" "scipy" "numpy" "qedma-api==0.18.3"
 
 # In case you are running locally, please install jupyter as well:
 # pip install "jupyter>=1.1.1"
+
+# %%
+# cd /content/ieee2025-qesem-workshop
 
 # %% [markdown]
 # # Imports

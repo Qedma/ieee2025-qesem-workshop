@@ -322,7 +322,7 @@ noisy_backend = qiskit_aer.AerSimulator(
 )
 
 
-num_shots = 1000  #### <------ Edit if too slow
+num_shots = 100  #### <------ Edit if too slow
 
 
 # %% [markdown]

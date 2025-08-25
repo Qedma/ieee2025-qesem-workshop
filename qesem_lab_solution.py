@@ -30,10 +30,23 @@
 
 # %% [markdown]
 # ## Setup
-# Use the following pip command to install the required packages. For your convenience, you can also use the `poetry.lock` file using poetry package management tool.
+# We will run the workshop using google colab.
+#
+# Instead, if you prefer, you can clone the [repository](https://github.com/Qedma/ieee2025-qesem-workshop) and install the required packages locally using `pip` or `poetry`.
+#
+# Use the following commands to clone the repository and install the required packages.
 
 # %%
-# #%pip install "qiskit>=2.0.0" "qiskit-ibm-runtime>=0.40.0" "qiskit-aer>=0.17.1" "jupyter>=1.1.1" "networkx>=3.5" "matplotlib>=3.10.3" "tqdm>=4.67.1" "scipy" "numpy" "qedma-api=0.18.3"
+# !git clone https://github.com/Qedma/ieee2025-qesem-workshop.git
+
+# %%
+# !cd /content/ieee2025-qesem-workshop
+
+# %%
+# !pip install "qiskit>=2.0.0" "qiskit-ibm-runtime>=0.40.0" "qiskit-aer>=0.17.1" "networkx>=3.5" "matplotlib>=3.10.3" "tqdm>=4.67.1" "scipy" "numpy" "qedma-api=0.18.3"
+
+# In case you are running locally, please install jupyter as well:
+# pip install "jupyter>=1.1.1"
 
 # %% [markdown]
 # # Imports

@@ -7,6 +7,6 @@ Characterization-based Error Mitigation for Quantum Computation.
 
 - Python package requirements appear at the start of the notebook, including the pip command to install them:
 
-  ```pip install "qiskit>=2.0.0" "qiskit-ibm-runtime>=0.40.0" "qiskit-aer>=0.17.1" "jupyter>=1.1.1" "networkx>=3.5" "matplotlib>=3.10.3" "tqdm>=4.67.1" "scipy" "numpy" "qedma-api=0.18.3"```
+  ```pip install "qiskit>=2.0.0" "qiskit-ibm-runtime>=0.40.0" "qiskit-aer>=0.17.1" "jupyter>=1.1.1" "networkx>=3.5" "matplotlib>=3.10.0" "tqdm>=4.67.1" "scipy" "numpy" "qedma-api=0.18.3"```
 
 - For you convenience, requirements can also be installed using poetry from the `poetry.lock` file.
